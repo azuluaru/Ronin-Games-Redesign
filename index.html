@@ -1,4 +1,3 @@
-<!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -11,28 +10,110 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
 
+    <!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+<![endif]-->
 
-  <body id="indexpage">
-<!--<div class="grid-container">-->
 
-<!-- start of main navigation-->
-      <div class="grid-x grid-padding-x">
-        <nav class="mainnavigation cell small-12">
-          <ul class="vertical large medium-horizontal menu">
-            <li><p>Logo</p><i class="fi-list"></i>
-            <li><a class="current" href="index.html"><i class="fi-list"></i> <span>Home</span></a></li>
-            <li><a href="about.html"><i class="fi-list"></i> <span>About</span></a></li>
-            <li><a href="events.html"><i class="fi-list"></i> <span>Events</span></a></li>
-            <li><a href="products.html"><i class="fi-list"></i> <span>Products</span></a></li>
-          </ul>
-        </nav>
+  <body>
+    <div class="grid-container">
+      <div class="grid-x">
+        <div class="cell small-12 large-12">
+              <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+          <div class="title-bar-title">Menu</div>
+        </div>
+
+        <div class="top-bar" id="example-menu">
+          <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li class="menu-text"><a href="index.html">Ronin Games</a></li>
+
+              <li><a href="pages/home.html">Home</a></li>
+              <li><a href="pages/products.html">Products</a></li>
+              <li><a href="pages/about.html">About</a></li>
+              <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+        </div>
+        </div>
       </div>
-<!-- end of main navigation-->
+      <div class="grid-x ">
+        <div class="cell small-12 large 12">
+          <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit-wrapper">
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    </div>
+    <ul class="orbit-container">
+      <li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="https://placeimg.com/640/480/any" alt="Space">
+          <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="https://placeimg.com/640/480/nature" alt="Space">
+          <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="https://placeimg.com/640/480/people" alt="Space">
+          <figcaption class="orbit-caption">Encapsulating</figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="https://placeimg.com/640/480/arch" alt="Space">
+          <figcaption class="orbit-caption">Outta This World</figcaption>
+        </figure>
+      </li>
+    </ul>
+  </div>
+  <nav class="orbit-bullets">
+    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+  </nav>
+</div>
+      </div>
+    </div>
+      <div class="grid-x grid-padding-x grid-margin-x">
+        <div class="cell small-12 large 12">
+          <p> Events</p>
+      </div>
+      </div>
+      <div class="grid-x grid-padding-x grid-margin-x">
+        <div class="cell small-12 large 12">
+          <p>  Mission Statement</p>
+      </div>
+      </div>
+      <div class="grid-x grid-padding-x grid-margin-x">
+        <div class="cell small-12 large-6">
+          Testimonial
+      </div>
+      <div class="cell small-12 large-6">
+          Testimonial
+    </div>
+
+    </div>
+    <footer>
+    </footer>
+  </div>
+
+
+
 
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+
   </body>
 </html>
