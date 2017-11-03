@@ -45,7 +45,3 @@ font-size: 1.3em;
 .orbit-bullets button.is-active {
     background-color: #cc0000;
 }
-
-element.style {
-    height: 5px;
-}
