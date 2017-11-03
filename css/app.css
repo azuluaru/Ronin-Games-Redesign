@@ -1,0 +1,51 @@
+
+
+body {
+    background-color: black;
+    color: white;
+    }
+
+.padding {padding-top: 75px;}
+
+
+ul {list-style: none;}
+
+li {font-family: 'Special Elite', cursive;
+    }
+
+h1,h2,h3,h4,h5,h6 {font-family: 'Special Elite', cursive;
+                  }
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+
+}
+
+a:focus {
+  color: red;
+}
+ a.active {
+   color: #cc0000;
+font-size: 1.3em;
+ }
+.logo {
+  float:right;
+
+  margin-bottom: 30px;
+
+}
+.orbit-bullets button {
+    background-color: #cacaca;
+}
+
+.orbit-bullets button.is-active {
+    background-color: #cc0000;
+}
+
+element.style {
+    height: 5px;
+}

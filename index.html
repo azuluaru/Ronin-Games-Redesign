@@ -9,6 +9,7 @@
     <title>Ronin Games and Hobbies</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite|Titillium+Web" rel="stylesheet">
   </head>
                             <!-- CHECK: Do we need the shiv?  -->
     <!--[if lt IE 9]>
@@ -23,17 +24,16 @@
 
 <!-- Start Row 1 Logo/Nav -->
     <!-- Start Logo -->
-        <div class="cell small-10 large-10">
-          Logo Goes Here
+        <div class="cell small-8 large-8">
+          <img class="logo" src="img/logo/black-logo.jpg" alt="ronin games and hobbies" style="height:250px; width:250px;">
         </div>
     <!-- End Logo -->
     <!-- Start Nav -->
-        <div class="cell small-2 large-2">
+        <div class="cell small-4 large-4 padding">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="events.html">Events</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
             <li><a href="https://www.facebook.com/Ronin-Games-Hobbies-136012519784323/" target="_blank">Facebook</a></li>
           </ul>
         </div>
@@ -55,13 +55,19 @@
 
 <!-- Start Row 3 Orbit -->
   <div class="cell small-12 large-12">
-  <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit" role="region" aria-label="Opening Banner Images" data-orbit>
   <div class="orbit-wrapper">
   <div class="orbit-controls">
       <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
       <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
   </div>
-    <ul class="orbit-container">
+    <ul class="orbit-container" style="height:5px;">
+      <li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/orbitindex/starwars.jpg" alt="Star Wars: Destiny">
+          <!--<figcaption class="orbit-caption"></figcaption>-->
+        </figure>
+      </li>
       <li class="orbit-slide">
         <figure class="orbit-figure">
           <img class="orbit-image" src="img/orbitindex/fiverings.jpg" alt="The card game: Legend of The Five Rings">
@@ -72,17 +78,6 @@
         <figure class="orbit-figure">
           <img class="orbit-image" src="img/orbitindex/heroclix.jpg" alt="Avengers Defenders War : Heroclix">
           <!--<figcaption class="orbit-caption">Avengers Defenders War: Heroclix</figcaption>-->
-        </figure>
-      </li>
-      <li class="is-active orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image" src="img/orbitindex/starwars.jpg" alt="Star Wars: Destiny">
-          <!--<figcaption class="orbit-caption"></figcaption>-->
-        </figure>
-      </li>
-      <li class="orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image" src="img/orbitindex/tombdnd.jpg" alt="Tomb of Annihilation">
         </figure>
       </li>
       <li class="orbit-slide">
@@ -97,7 +92,6 @@
         <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
         <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
         <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-        <button data-slide="4"><span class="show-for-sr">Fifth slide details.</span></button>
       </nav>
   </div>
   </div>
