@@ -9,29 +9,36 @@ var dayOfWeek = today.getDay();
 
 var todayevent;
 
+// Sunday
 if (dayOfWeek == 0)
-    { todayevent = 'Sunday'; }
+    { todayevent = 'Today&apos;s Event&colon; Open Gaming and Bonus Tournament'; }
 
+// Monday
   else if (dayOfWeek == 1)
-    { todayevent = 'Monday'; }
+    { todayevent = 'Today&apos;s Event&colon; Heroclix'; }
 
+// Tuesday
   else if (dayOfWeek == 2)
-    { todayevent = 'Tuesday'; }
+    { todayevent = 'Today&apos;s Event&colon; Dice Masters and Star Wars Destiny'; }
 
+// Wednesday
   else if (dayOfWeek == 3)
-    { todayevent = 'Wednesday'; }
+    { todayevent = 'Today&apos;s Event&colon; Dungeons &amp; Dragons and Pathfinder Society'; }
 
+// Thursday
   else if (dayOfWeek == 4)
-    { todayevent = 'Thursday'; }
+    { todayevent = 'Today&apos;s Event&colon; Dungeons &amp; Dragons and Final Fantasy TCG'; }
 
+// Friday
   else if (dayOfWeek == 5)
-    { todayevent = 'Friday'; }
+    { todayevent = 'Today&apos;s Event&colon; Magic Standard 6pm and Magic Commander'; }
 
+// Saturday
   else if (dayOfWeek == 6)
-    { todayevent = 'Saturday'; }
+    { todayevent = 'Today&apos;s Event&colon; Magic Booster Draft 6pm'; }
 
   else
-    { todayevent = 'See Our Event Page'; }
+    { todayevent = 'Today&apos;s Event&colon; See Our Event Page'; }
 
 document.getElementById('todaysevent').innerHTML = todayevent;
 // Today's Event Switcher END
