@@ -15,6 +15,7 @@ li {font-family: 'Special Elite', cursive;
 
 h1,h2,h3,h4,h5,h6 {font-family: 'Special Elite', cursive;
                   }
+p {font-family: 'Titillium Web', sans-serif;}
 
 a {
   color: white;
@@ -34,14 +35,31 @@ font-size: 1.3em;
  }
 .logo {
   float:right;
-
   margin-bottom: 30px;
-
 }
+.separate {
+    border-bottom: solid #cc0000 3px;
+    }
 .orbit-bullets button {
     background-color: #cacaca;
 }
 
 .orbit-bullets button.is-active {
     background-color: #cc0000;
+}
+
+#todaysevent {margin-top: 20px;
+              font-family: 'Special Elite', cursive;
+              font-size: 1.5em;
+              }
+
+.upevent {margin-top: 20px;
+          }
+.smaller {font-size: 1.5em}
+
+#randtest1, #randtest2 {border: solid #cc0000 2px;
+                        padding: 20px;
+                        margin-top: 20px;
+                        margin-bottom: 50px;
+
 }
